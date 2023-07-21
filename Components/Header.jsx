@@ -2,11 +2,14 @@ import CartPage from "./Cart";
 const Header = () => {
   //https://paletton.com/#uid=13q0u0kboSe4L++4L++4zgo4zgo paleta de colores
   return (
-    <header className="bg-principalGray w-full text-white sticky w-full z-10">
+    <header className="bg-tertiary w-full text-white sticky w-full z-10">
       <div className="container    ">
         <nav className="flex  items-center justify-between border-b border-white  ">
           <div>
+            <a href="/">
+
             <img src="/profile.png" className="w-[18rem] h-[6rem] p-4 cursor-pointer " alt="" />
+            </a>
           </div>
           <ul className="flex space-x-4 text-xl m-3">
             <li>
